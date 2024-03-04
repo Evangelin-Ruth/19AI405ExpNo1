@@ -77,10 +77,10 @@ class VacuumCleanerAgent:
     def print_status(self): # Print the current status of the agent
         print(f"Location: {self.location}, Dirt Status: {self.dirt_status}, ",end="")
      print(f"Perfomance Measure: {self.performance}")
-`````
+
 # Example usage:
 agent = VacuumCleanerAgent()
-```
+
 # Move the agent, suck dirt, and do nothing
 agent.perform_action("left")
 agent.print_status()
@@ -93,7 +93,6 @@ agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
 ```
-
 ## Output:
 ![image](https://github.com/Evangelin-Ruth/19AI405ExpNo1/assets/94219798/4e63a78c-9a34-4bad-ad2f-1cf089661e0a)
 
