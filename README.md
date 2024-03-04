@@ -41,7 +41,7 @@
 
 
 ## CODE:
-```
+````
 import random
 class VacuumCleanerAgent:
     def __init__(self): # Initialize the agent's state (location and dirt status)
@@ -92,7 +92,7 @@ agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
 agent.print_status()
-```
+````
 
 ## Output:
 ![image](https://github.com/Evangelin-Ruth/19AI405ExpNo1/assets/94219798/4e63a78c-9a34-4bad-ad2f-1cf089661e0a)
